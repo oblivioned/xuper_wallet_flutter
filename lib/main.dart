@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:xuper_wallet_flutter/pages/welcome.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp( MyApp() );
 }
 
 class MyApp extends StatelessWidget {
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: WelcomeScene(),
+      home: WelcomScene(),
     );
   }
 }
